@@ -9,7 +9,7 @@ If you want to add a new plugin or update an existing one, follow this process.
 1. Fork this repository.
 2. In your fork, add or edit `PluginManifests/<PluginId>.yml`.
 3. Make sure the manifest `id` is unique, and do not change the existing `id` when updating a plugin.
-4. Fill in or update plugin metadata such as `name`, `description`, `version`, `apiVersion`, `author`, `icon`, `url`, and `downloadURL`.
+4. Fill in or update plugin metadata such as `name`, `description`, `version`, `apiVersion`, `author`, `icon`, `readme`, `url`, and `downloadURL`.
 5. Run:
 
 ```powershell
@@ -38,6 +38,7 @@ version: "0.04"
 apiVersion: "2.0.0.0"
 author: "jefcrb"
 icon: "https://raw.githubusercontent.com/jefcrb/3DViewerIDV/refs/heads/master/icon.png"
+readme: "https://raw.githubusercontent.com/jefcrb/3DViewerIDV/refs/heads/master/README.md"
 url: "https://github.com/jefcrb/3DViewerIDV"
 downloadURL: "https://github.com/jefcrb/3DViewerIDV/releases/download/v0.04/repo-v0.04.zip"
 ```
