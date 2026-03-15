@@ -9,7 +9,7 @@
 1. Fork 本仓库。
 2. 在你自己的仓库中修改或新增 `PluginManifests/<PluginId>.yml`。
 3. 确保清单中的 `id` 唯一，且更新插件时不要修改已有 `id`。
-4. 补齐或更新插件信息，例如 `name`、`description`、`version`、`apiVersion`、`author`、`url`、`downloadURL`。
+4. 补齐或更新插件信息，例如 `name`、`description`、`version`、`apiVersion`、`author`、`icon`、`url`、`downloadURL`。
 5. 本地执行：
 
 ```powershell
@@ -37,6 +37,7 @@ description: "3D characters and scene support"
 version: "0.04"
 apiVersion: "2.0.0.0"
 author: "jefcrb"
+icon: "https://raw.githubusercontent.com/jefcrb/3DViewerIDV/refs/heads/master/icon.png"
 url: "https://github.com/jefcrb/3DViewerIDV"
 downloadURL: "https://github.com/jefcrb/3DViewerIDV/releases/download/v0.04/repo-v0.04.zip"
 ```
