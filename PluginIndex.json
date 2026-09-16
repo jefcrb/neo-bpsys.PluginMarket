@@ -27,8 +27,8 @@
   },
   "top.plfjy.3DViewer.ASG.Director": {
     "id": "top.plfjy.3DViewer.ASG.Director",
-    "name": "3DViewer.ASG.Director",
-    "description": "第五人格统一平台（idvevent）导播软件的 3D 功能迁移实现",
+    "name": "3DViewer.ASG.Director【已弃用】",
+    "description": "（已弃用，推荐使用 3DViewerIDV）第五人格统一平台（idvevent）导播软件的 3D 功能迁移实现",
     "version": "0.1.2",
     "apiVersion": "2.0.0.0",
     "author": "PLFJY,Codex,luolan",
